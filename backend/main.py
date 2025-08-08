@@ -5,7 +5,7 @@ from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-DATABASE_URL = "postgresql://postgres:admin@localhost:5432/testdb"
+DATABASE_URL = "postgresql://postgres:MyTPlus2025@mytplusdatabase.cluster-cly0u28ik5bs.ap-south-1.rds.amazonaws.com:5432/testdb"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
