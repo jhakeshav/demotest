@@ -8,7 +8,7 @@ function App() {
   const [error, setError] = useState(null);
   const [newItemName, setNewItemName] = useState("");
 
-  const API_URL = "http://localhost:8000/items";
+  const API_URL = "http://13.204.127.56:8000/items";
 
   const fetchItems = () => {
     setLoading(true);
